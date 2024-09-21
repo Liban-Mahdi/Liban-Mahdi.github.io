@@ -1,7 +1,177 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartoon Network 2000</title>
+    <link rel="stylesheet" href="./css/css.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+    <!-- https://web.archive.org/web/20001019035652/http://www.cartoonnetwork.com/index.getflash.html -->
+    <!-- https://web.archive.org/web/20001109172000/http://cartoonnetwork.com/index.getflash.html -->
+    <!-- https://web.archive.org/web/20001018130847/http://cartoonnetwork.com/index.getflash.html -->
+    
+    <h1>Cartoon Network 2000 Clone</h1>
+
+    <header>
+        <h2>Header</h2>    
+        <section id="header-banner">
+            <h3>Banner top</h3>
+            <div class="banner-wrapper">
+                <div class="banner-logo">
+                    <img src="./assets/img/logo.gif" alt="webpage logo">
+                </div>
+
+                <aside>
+                    <div class="banner-ad-image">
+                        <img src="./assets/img/header-ad.gif" alt="brand advertising banner">
+                    </div>
+                    
+                    <div class="banner-ad-text">
+                        <span class="rotate-90">ad</span>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section id="plugins">
+            <h3>Plugins</h3>
+            <div class="plugins-wrapper">
+                <div>
+                    <span class="bood-red-color">Without the flash plug-in,</span>
+                    <span class="crayola-orange-yellow-color">you're missing half the fun!</span>
+                    <span class="white-color">Click here to get flash!</span>
+                    <img src="./assets/img/get-flash.gif" alt="get flash logo">
+                </div>
+            
+                <div class="warning-message">
+                    If you know you have Flash and feel you have reached this page in error, <a href="#">click here</a>.
+                </div>
+            </div>
+        </section>
+
+        <nav>
+            <h3>Navigation</h3>
+
+            <section id="">
+                <label for="characters">
+                    Choose a character:
+                    <select name="characters" id="characters">
+                        <option value="" selected disabled>Choose</option>
+                        <option value="Bugs Bunny">Bugs Bunny</option>
+                        <option value="Daffy Duck">Daffy Duck</option>
+                        <option value="Dexter">Dexter</option>
+                        <option value="Ed, Edd & Eddy">Ed, Edd & Eddy</option>
+                        <option value="The Flintstones">The Flintstones</option>
+                        <option value="I Am Weasel">I Am Weasel</option>
+                        <option value="Johnny Bravo">Johnny Bravo</option>
+                        <option value="Powerpuff Girls">Powerpuff Girls</option>
+                        <option value="Scooby-Doo">Scooby-Doo</option>
+                    </select>
+                </label>
+                
+                <label for="">
+                    Search:
+                    <input type="text" name="" id="">
+                    <button>Go</button>
+                </label>
+            </section>
+
+            <a href="javascript:void(0)" onclick="toggleMenu()">
+                <i class="menu-icon"></i>
+            </a>
+
+            <ul id="nav-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Cartoon orbit</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Toonami</a></li>
+                <li><a href="#">Web premiere toons</a></li>
+                <li><a href="#">Favorites</a></li>
+                <li><a href="#">D.O.C.</a></li>
+                <li><a href="#">Tv</a></li>
+            </ul>
+        </nav>
+    </header>
+            
+
+    <main>
+        <h2>Main Section</h2>
+        
+        <section id="spotlight">
+            <h3>Spotlight</h3>
+            <div class="left">
+                <img src="./assets/img/spotlight-left.gif" alt="spotlight main image">
+            </div>
+            <div class="right">
+                <img src="./assets/img/spotlight-right.gif" alt="spotlight main image">
+            </div>
+        </section>
+        
+        <section id="characters">
+            <h3>Characters</h3>
+            <img src="./assets/img/favorites.gif" alt="favorites characters">
+        </section>
+
+        <section id="featured">
+            <h3>Featured</h3>
+            <article>
+                <img src="./assets/img/shop-cn.gif" alt="">
+                <p>Free shipping on Your First Order <a href="#">Click Here for Details</a></p>    
+            </article>
+            
+            <article>
+                <img src="./assets/img/boomerang.gif" alt="">
+                <p>It's all coming back to you. <a href="#">Click Here!</a></p>
+            </article>
+            
+            <article class="flex-column">
+                <img src="./assets/img/jbvo.gif" alt="">
+                <p><a href="#">Click Here!</a></p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Footer</h2>
+
+        <section id="legalities">
+            <h3>Legalities</h3>
+            <a href="#">Privacy Policy.</a>
+        </section>
+
+        <section id="footer-banner">
+            <h3>Footer banner</h3>
+            <div class="banner-wrapper">
+                <div class="banner-logo">
+                    <img src="./assets/img/cn-international.gif" alt="webpage logo">
+                </div>
+
+                <aside>
+                    <div class="banner-ad-image">
+                        <img src="./assets/img/footer-ad.gif" alt="brand advertising banner">
+                    </div>
+                    
+                    <div class="banner-ad-text">
+                        <span class="rotate-90">ad</span>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section id="copyright-information">
+            <h3>Copyright information</h3>
+            <p>TM and (R) are trademarks of Nintendo of America Inc.</p>
+            <p>For Terms and Conditions of Use click here.</p>
+            <p>USE OF THIS SITE SIGNIFIES YOUR AGREEMENT TO THE TERMS OF USE.</p>
+            <p>TM & © 2000 Cartoon Network. A Time Warner Company. All Rights Reserved.</p>
+            <p>All characters on this site are protected by trademark and other rights. Click here for details.</p>
+            <p>For information on sales opportunities, e-mail cartoon@sales.turner.com.</p>
+        </section>
+    </footer>
+
+    <script type="text/javascript" src="./js/index.js"></script>
+</body> 
 </html>
