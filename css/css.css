@@ -1,6 +1,10 @@
 body {
     margin: 0;
     padding: 0;
+    background-image: url("perfectblue.jpg");
+    background-repeat: repeat-x; /* Repeats the image horizontally */
+    background-size: auto; /* Ensures the image is not stretched */
+    background-position: top left; /* Starts the background image from the top left */
 }
 
 @font-face {
@@ -51,7 +55,6 @@ header .plugins-wrapper div:first-child {
     border-bottom: .5rem solid #ff3301;
     font-family: Boogaloo;
     text-transform: uppercase;
-
 }
 
 header .plugins-wrapper div:first-child * {
@@ -181,8 +184,8 @@ section#featured article {
 }
 
 section#featured article img {
-        min-width: 50%;
-    }
+    min-width: 50%;
+}
 
 section#featured article:nth-child(2) {
     border-top: 0;
@@ -221,8 +224,8 @@ footer #copyright-information p {
 @media only screen and (min-width: 768px) {
     /* For desktop: */
     body {
-        max-width: 38.43rem;
-        margin: 0 auto;
+        max-width: 100%; /* Removes width restriction */
+        margin: 0; /* Removes default margin */
     }
 
     .banner-wrapper {
@@ -283,7 +286,7 @@ footer #copyright-information p {
         border: 0;
         height: 1.8rem;
     }
-    
+
     header nav section label {
         flex-direction: row;
     }
@@ -340,7 +343,8 @@ footer #copyright-information p {
     }
 
     .flex-column {
-        flex-direction: column;
+        flex-direction: column
+
     }
 
     section#featured article:nth-child(2) {
