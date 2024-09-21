@@ -22,7 +22,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--background-color);
+    background: url('./assets/windows95-background.png') repeat; /* Your background image path */
+    background-size: cover;
     min-height: 100vh;
     font-size: var(--font-size);
     margin: 0;
@@ -50,6 +51,8 @@ a:focus {
     display: grid;
     grid-gap: var(--margin);
     width: 100%;
+    background-color: var(--background-color); /* Keeps the internal layout color */
+    box-shadow: 0 0 0 5px var(--background-color); /* Peeking effect */
     grid-template:
         "header header header" auto
         "leftSidebar main rightSidebar" auto
