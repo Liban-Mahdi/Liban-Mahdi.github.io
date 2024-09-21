@@ -22,7 +22,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('./assets/windows95-background.png') repeat; /* Your background image path */
+    background: url('Assets/Win95.jpg') repeat; /* Your background image path */
     background-size: cover;
     min-height: 100vh;
     font-size: var(--font-size);
