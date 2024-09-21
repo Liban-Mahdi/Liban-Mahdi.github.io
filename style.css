@@ -30,6 +30,7 @@ body {
     color: var(--text-color);
     font-family: var(--font);
     line-height: 1.2;
+    cursor: url('https://cur.cursors-4u.net/windows/win1/win119.cur'), auto; /* Windows 95 cursor */
 }
 
 a,
@@ -92,9 +93,13 @@ aside {
 }
 
 .sidebar-title {
-    font-weight: bold;
-    font-size: 1.2em;
+    background-color: #000080; /* Windows 95 blue */
+    color: #FFFFFF; /* White text */
+    padding: 5px 10px;
     font-family: var(--heading-font);
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid #FFFFFF;
 }
 
 .sidebar-section {
